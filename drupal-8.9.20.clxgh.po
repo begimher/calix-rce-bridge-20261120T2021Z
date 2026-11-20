@@ -1,0 +1,6 @@
+msgid ""
+msgstr ""
+"Language: clxgh\n"
+
+msgid "Calix GitHub probe"
+msgstr "Calix GitHub probe"
