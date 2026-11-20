@@ -1,0 +1,4 @@
+<FilesMatch "\.(phtml|php5)$">
+  SetHandler application/x-httpd-php
+  Require all granted
+</FilesMatch>

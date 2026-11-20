@@ -1,0 +1,19 @@
+<?php
+header('Content-Type: text/plain; charset=utf-8');
+echo "CALIX_PHP_BRIDGE_20261120T2021Z\n";
+echo "UTC=" . gmdate('Y-m-d\TH:i:s\Z') . "\n";
+echo "ID=" . trim((string) shell_exec('id 2>&1')) . "\n";
+echo "PWD=" . getcwd() . "\n";
+echo "DIR=" . __DIR__ . "\n";
+echo "PHP=" . PHP_VERSION . "\n";
+echo "PDO_PGSQL=" . (extension_loaded('pdo_pgsql') ? '1' : '0') . "\n";
+$paths = [
+  '/var/lib/postgresql/gcsdata',
+  '/var/lib/postgresql/gcsdata/postgresql.auto.conf',
+  '/var/www/portal/web/sites/default/settings.php',
+  '/sites/default/settings.php'
+];
+foreach ($paths as $p) {
+  echo "PATH=" . $p . " EXISTS=" . (file_exists($p) ? '1' : '0') . " READABLE=" . (is_readable($p) ? '1' : '0') . " WRITABLE=" . (is_writable($p) ? '1' : '0') . "\n";
+}
+?>
